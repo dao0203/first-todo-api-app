@@ -70,5 +70,6 @@ dependencies {
     debugImplementation(libs.ui.test.manifest)
     //hilt
     implementation(libs.hilt)
+    implementation(libs.hilt.navigation.compose)
     ksp(libs.hilt.compiler)
 }
